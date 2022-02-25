@@ -1,0 +1,30 @@
+@import 'base.css';
+
+/*  */
+
+section {
+    display: none;
+}
+
+#board{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: none;
+    position: relative;
+}
+
+#timer {
+    float: right;
+}
+
+#points {
+    font-size: 27;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+h2{
+    padding-left: 30px;
+    padding-right: 30px;
+}

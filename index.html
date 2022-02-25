@@ -1,0 +1,51 @@
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/index.css">
+    <title>INTERACTION</title>
+    <script src="assets/js/game.js" defer></script>
+</head>
+<body>
+
+    <header class="header">
+        <div class="box flexbox">
+
+            <div class="title">
+                <h1>Reaction</h1>
+            </div>
+   
+        </div>
+
+    </header>
+ 
+    <!-- header -->
+
+    <div class="wrapper">
+
+        <h2>Points:<input type="text" id="points" value="0"></input></h2>
+        <h2 id="timer">Time: - -</h2>
+
+        <main id="start">
+
+            <h1 id="win"></h1>
+
+                <button class="button" id="strBtn" onclick="startGame()">Start</button>
+
+        </main>
+
+        <section id="game">
+            <p id="score"></p>
+
+            <div id="board"></div>
+        </section>
+        
+        <!-- Footer -->
+    </div>
+
+    <noscript>
+        <p>this page requires a JavaScript-enabled browser</p>
+    </noscript>
+</body>
+</html>
